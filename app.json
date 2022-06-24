@@ -1,0 +1,64 @@
+# copy Right by Rishmika Sandanu Covid19 Bot
+# Correct Repo https://github.com/RishBropromax/Emo-Covid19-Bot
+# Mage By Rishmika Sandanu 
+# Telegram - @ImRishmika
+
+{
+  "name": "Covid Bot",
+  "description": "This Bot can Give Covid News...",
+  "logo": "https://telegra.ph/file/9bf179983e68a9b02b61d.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "repository": "https://github.com/RishBropromax/Emo-Covid19-Bot",
+  "addons": [
+    {
+       "options": {
+          "version": "12"
+       },
+       "plan": "heroku-postgresql"
+    }
+  ],
+
+  "env": {
+    "ENVIRONMENT": {
+      "description": "Don't change ANYTHING.",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true,
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Obtain a Telegram bot token by contacting @BotFather",
+      "required": true,
+      "value": ""
+   
+    },
+    "OWNER_ID": {
+      "description": "Obtain your Telegram ID",
+      "required": true,
+      "value": ""
+    }
+
+  }
+}

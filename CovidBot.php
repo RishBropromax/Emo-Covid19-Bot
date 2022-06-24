@@ -1,3 +1,7 @@
+# Copy Right Emo Covid 19 Bot
+# Made By Rishmika Sandanu...
+# Telegram - @ImRishmika
+
 <?php
 $token = 'BOT_TOKEN';
 $img = 'BOT_IMG';
